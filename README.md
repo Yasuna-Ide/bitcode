@@ -124,7 +124,7 @@ p3("c3 e3 g3 c4").wave("<tri saw sin>")
 #### ノイズモード（CH4）
 
 ```javascript
-n1("h l h l")                // h=短周期(7bit), l=長周期(15bit)
+n1("h l h l")                     // h=短周期(7bit), l=長周期(15bit)
 n1("h l h l").env(15, "down", 1)  // エンベロープ付き
 ```
 
