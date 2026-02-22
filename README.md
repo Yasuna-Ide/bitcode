@@ -1,2 +1,2 @@
-# bitcode
+# BITCODE
 chiptune live coder
