@@ -200,10 +200,10 @@ hush()          // Stop all channels
 │ 6│   .rotate(1)                          │    & highlighting
 │ 7│   .every(4, x => x.rev())             │
 │  │                                       │
-│  │ ✕ Error message (inline display)     │
+│  │ ✕ Error message (inline display)      │
 ├──────────────────────────────────────────┤
 │  [CH1] [CH2] [CH3] [CH4]                 │  ← Channel monitor
-│  ┄┄┄┄┄┄┄┄┄┄ Waveform Scope ┄┄┄┄┄┄┄┄┄┄     │  ← AnalyserNode display
+│  ┄┄┄┄┄┄┄┄┄┄ Waveform Scope ┄┄┄┄┄┄┄┄┄┄    │  ← AnalyserNode display
 │  p1 p2 pulse · p3 wave · n1 noise │ ...  │  ← Help
 └──────────────────────────────────────────┘
 ```
