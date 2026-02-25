@@ -345,12 +345,12 @@ User code (string)
 - `.sweep()` works on all channels, but on actual hardware it is a CH1-only feature
 - CH4 `fast()` at high multipliers (4+) may cause `setValueAtTime` congestion and glitches
 
-### Phase 4: Sharing & Distribution (Not Started)
+### Phase 4: Sharing & Distribution (In Progress)
 
-- [ ] URL-encoded share functionality
-- [ ] Preset / sample code library (in-UI selection)
 - [ ] Extended keyboard shortcuts
 - [ ] Mobile support
+- [ ] URL-encoded share functionality
+- [ ] Preset / sample code library (in-UI selection)
 
 ## 8. Design Notes
 
