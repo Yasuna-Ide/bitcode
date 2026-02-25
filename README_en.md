@@ -27,7 +27,7 @@ The UI is rendered in pure 1-bit monochrome (#fff / #000 only), embodying the "a
 │  n1  ──▶  [CH4: Noise      ]  ──┘       │
 │                                         │
 │  Each channel: 1 persistent oscillator  │
-│  New event → immediately overwrites prev│
+│  New event→ immediately overwrites prev │
 │  Master gain: 2.5                       │
 └─────────────────────────────────────────┘
 ```
@@ -200,10 +200,10 @@ hush()          // Stop all channels
 │ 6│   .rotate(1)                          │    & highlighting
 │ 7│   .every(4, x => x.rev())             │
 │  │                                       │
-│  │ ✕ Error message (inline display)      │
+│  │ Error message (inline display)        │
 ├──────────────────────────────────────────┤
-│  [CH1] [CH2] [CH3] [CH4]                 │  ← Channel monitor
-│  ┄┄┄┄┄┄┄┄┄┄ Waveform Scope ┄┄┄┄┄┄┄┄┄┄    │  ← AnalyserNode display
+│  [CH1]   [CH2]   [CH3]   [CH4]           │  ← Channel monitor
+│  ------------ Waveform Scope ----------- │  ← AnalyserNode display
 │  p1 p2 pulse · p3 wave · n1 noise │ ...  │  ← Help
 └──────────────────────────────────────────┘
 ```
