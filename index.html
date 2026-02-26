@@ -365,6 +365,8 @@ function Editor({value, onChange, onEval, onHush, onToggleMute, onToggleSolo, er
         "Ctrl-3":     ()=>cbRef.current.onToggleMute("p3"),
         "Cmd-4":      ()=>cbRef.current.onToggleMute("n1"),
         "Ctrl-4":     ()=>cbRef.current.onToggleMute("n1"),
+        "Shift-Cmd-Backspace":  ()=>cbRef.current.onClear(),
+        "Shift-Ctrl-Backspace": ()=>cbRef.current.onClear(),
         "Shift-Cmd-1":  ()=>cbRef.current.onToggleSolo("p1"),
         "Shift-Ctrl-1": ()=>cbRef.current.onToggleSolo("p1"),
         "Shift-Cmd-2":  ()=>cbRef.current.onToggleSolo("p2"),
